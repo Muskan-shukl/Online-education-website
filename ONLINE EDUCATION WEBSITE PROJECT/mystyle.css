@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+body{
+   /* background-image: url(HiRes-1000.jpg); */
+    /* background-color: rgb(195, 156, 156); */
+    /* background-color: rgb(167, 148, 213); */
+    font-family: 'Rubik', sans-serif;
+
+}
+h1{
+    font-size: 1.5rem;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.form_container{
+    border: 5px solid black;
+    width: 50%;
+    /* margin-left: 25%; */
+    margin-top: 0rem;
+    margin-bottom: 0;
+    padding: 2rem;
+    margin: auto;
+}
+.name{
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+input{
+   
+      width: 35rem;
+      border: 2px solid black;
+      height: 1rem;
+      font-size: 1rem;
+      padding: 0.3rem;
+      justify-content: center;
+      align-items: center;
+      border-radius: 1rem;
+      /* background-color: rgb(69, 145, 197); */
+}
+button{
+   width: 300px;
+   font-weight: bold;
+   height: 1.5rem;
+   font-size: 1rem;
+   margin-top: 0rem;
+   cursor: pointer;
+   background-color: rgb(72, 177, 222);
+   border-radius: 1rem;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+p{
+    font-size: 1rem;
+}
+p a{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    
+}
+p a:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+
+    
+}
+
+.form_container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
